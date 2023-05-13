@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+li{
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+nav li{
+    float: left;
+}
+
+nav li a{
+    display: block;
+    padding: 10px 14px;
+    color: #fff;
+}
+
+nav li a:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+.dropdown:hover .drop{
+    display: block;
+}
+
+.drop{
+    background-color: #fff;
+    box-shadow: 0.1px 0.1px 10px;
+    position: absolute;
+    display: none;
+}
+
+.drop li{
+    float: none;
+}
+
+.drop li a{
+    color: #000;
+}

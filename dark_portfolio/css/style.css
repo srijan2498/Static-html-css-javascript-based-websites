@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav */
+
+nav ul {
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    background-color: #000;
+}
+
+nav li{
+    height: 18%;
+}
+
+nav li a{
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li a:hover{
+    opacity: 0.8;
+}

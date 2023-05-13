@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #000;
+}
+
+nav li{
+    list-style: none;
+    float: left;
+}
+
+nav li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav li a:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+/* jane-heading */
+.jane-heading{
+    padding: 60px;
+}
+
+.jane-heading .head{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.jane-heading .sub-head{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.jane-heading .sub-head span{
+    color: #fff;
+    background-color: #000;
+    padding: 5px;
+    font-weight: 700;
+}
+
+/* banner */
+.banner{
+    position: relative;
+    width: 100%;
+    color: #fff;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.banner .lines{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 180px;
+    left: 25px;
+}
+
+.banner .jane{
+    /* position: absolute;
+    bottom: 65%;
+    left: 25px; */
+    font-size: 40px;
+}
+
+.banner .fashion{
+    /* position: absolute;
+    bottom: 45%;
+    left: 25px; */
+    font-size: 70px;
+}
+
+.banner .subs{
+    /* position: absolute;
+    bottom: 32%;
+    left: 25px; */
+    background-color: rgba(204, 204, 204, 0.514);
+    color: #000;
+    font-size: 20px;
+    padding: 14px 20px;
+    width: 110px;
+    transition: 0.5s;
+}
+
+.banner .subs:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <script src="https://kit.fontawesome.com/b0d67f373f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="topnav">
+        <ul>
+            <li><i class="fas fa-bars" id="ham" onclick="openHam()"></i></li>
+            <li class="logo">Company Name</li>
+        </ul>
+    </nav>
+
+    <nav class="hamburg" id="hamburg">
+        <div class="closeHam" id="closeHam">
+            <i class="fas fa-times" onclick="closeHam()"></i>
+        </div>
+        <div class="logo">
+            Company<br>Name
+        </div>
+
+        <ul>
+            <li>
+                <a href="#">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Showcase
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Services
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Designers
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Packages
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="main">
+        <nav class="sidenav">
+            <div class="logo">
+                Company<br>Name
+            </div>
+
+            <ul>
+                <li>
+                    <a href="#">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Showcase
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Services
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Designers
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Packages
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="body">
+            <!-- heading -->
+            <p class="interior">
+                Interior Design
+            </p>
+
+            <div class="showcase">
+                <p class="head">Showcase</p>
+                <div class="img-grid">
+                    <div class="row">
+                        <div class="img">
+                            <img src="../img/kitchenconcrete.jpg" alt="">
+                        </div>
+                        <div class="img">
+                            <img src="../img/diningroom.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="img">
+                            <img src="../img/kitchenconcrete.jpg" alt="">
+                        </div>
+                        <div class="img">
+                            <img src="../img/livingroom.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="img">
+                            <img src="../img/livingroom2.jpg" alt="">
+                        </div>
+                        <div class="img">
+                            <img src="../img/atrium.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    function openHam() {
+        document.getElementById('hamburg').style.display = 'block';
+    }
+
+    function closeHam() {
+        document.getElementById('hamburg').style.display = 'none';
+    }
+</script>
+
+</html>
